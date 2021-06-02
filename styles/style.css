@@ -93,7 +93,7 @@ img {
 }
 
 #header .nav-list ul li:hover a {
-  color: rgb(196, 0, 196);
+  color: #7b0505;
 }
 
 #header .hamburger {
@@ -268,7 +268,7 @@ h3 {
   display: inline;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 768px) {
   /*  Header  */
   #header .hamburger {
     display: none;
@@ -286,8 +286,12 @@ h3 {
     display: inline-block;
   }
 
+  #header .nav-list ul.active {
+    color: #7b0505;
+  }
+
   #header .nav-list ul li a {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
 
   #header .nav-list ul a:after {

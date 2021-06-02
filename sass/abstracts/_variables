@@ -1,0 +1,4 @@
+$background-color: hsl(0, 0%, 0%);
+$tubblez-tablez-red: hsl(0, 92%, 25%);
+$font-color: hsl(0, 0%, 100%);
+
